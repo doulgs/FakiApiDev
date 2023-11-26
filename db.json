@@ -1,0 +1,91 @@
+{
+  "usuarios": [
+    {
+      "id": 11,
+      "user": "douglas",
+      "senha": "123123",
+      "token": "douglasdesouzadomiciano"
+    },
+    {
+      "id": 21,
+      "user": "publisoft",
+      "senha": "123123",
+      "token": "publisoftinformatica"
+    },
+    {
+      "id": 31,
+      "user": "a",
+      "senha": "a",
+      "token": "aa"
+    }
+  ],
+  "pedidos": [
+    {
+      "id": 1,
+      "filia": 11,
+      "numeroPedido": 123321,
+      "numeroExterno": 123,
+      "pessoa": "Douglas Domiciano",
+      "complemento": "Pedido de Capsulas - DOLCE GUSTO",
+      "dataPedido": "25/11/2023",
+      "status": "open",
+      "itens": [
+        {
+          "id": 1,
+          "itemDescricao": "MOCHACCINO CANELA",
+          "itemQuantidade": 10,
+          "itemBarr": "78910002934376"
+        },
+        {
+          "id": 2,
+          "itemDescricao": "CHOCOCINO ALPINO",
+          "itemQuantidade": 10,
+          "itemBarr": "7891000777084"
+        },
+        {
+          "id": 3,
+          "itemDescricao": "CAFÉ MATINAL",
+          "itemQuantidade": 10,
+          "itemBarr": "7891000621981"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "filia": 11,
+      "numeroPedido": 321123,
+      "numeroExterno": 321,
+      "pessoa": "Publisoft Informatica",
+      "complemento": "Pedido de Capsulas - MOCHACCINO CANELA",
+      "dataPedido": "25/11/2023",
+      "status": "open",
+      "itens": [
+        {
+          "id": 1,
+          "itemDescricao": "MOCHACCINO CANELA",
+          "itemQuantidade": 10,
+          "itemBarr": "78910002934376"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "filia": 11,
+      "numeroPedido": 333222,
+      "numeroExterno": 123456,
+      "pessoa": "Dev_Coffee",
+      "complemento": "Pedido de Capsulas - MOCHACCINO CANELA",
+      "dataPedido": "25/11/2023",
+      "status": "open",
+      "itens": [
+        {
+          "id": 1,
+          "itemDescricao": "CHOCOCINO ALPINO",
+          "itemQuantidade": 10,
+          "itemBarr": "7891000777084"
+        }
+      ]
+    }
+  ],
+  "pConferidos": []
+}
