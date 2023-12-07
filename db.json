@@ -1,91 +1,34 @@
 {
-  "usuarios": [
-    {
-      "id": 11,
-      "user": "douglas",
-      "senha": "123123",
-      "token": "douglasdesouzadomiciano"
-    },
-    {
-      "id": 21,
-      "user": "publisoft",
-      "senha": "123123",
-      "token": "publisoftinformatica"
-    },
-    {
-      "id": 31,
-      "user": "a",
-      "senha": "a",
-      "token": "aa"
-    }
-  ],
-  "pedidos": [
+  "isValid": true,
+  "msg": "",
+  "data": [
     {
       "id": 1,
-      "filia": 11,
-      "numeroPedido": 123321,
-      "numeroExterno": 123,
-      "pessoa": "Douglas Domiciano",
-      "complemento": "Pedido de Capsulas - DOLCE GUSTO",
-      "dataPedido": "25/11/2023",
-      "status": "open",
-      "itens": [
-        {
-          "id": 1,
-          "itemDescricao": "MOCHACCINO CANELA",
-          "itemQuantidade": 10,
-          "itemBarr": "78910002934376"
-        },
-        {
-          "id": 2,
-          "itemDescricao": "CHOCOCINO ALPINO",
-          "itemQuantidade": 10,
-          "itemBarr": "7891000777084"
-        },
-        {
-          "id": 3,
-          "itemDescricao": "CAFÉ MATINAL",
-          "itemQuantidade": 10,
-          "itemBarr": "7891000621981"
-        }
-      ]
+      "usuario": "alagoas",
+      "senha": "123",
+      "pathLogo": "https://www.rccalagoas.com.br/themes/tema_rccbrasil/images/logo-header-alagoas.png",
+      "url": ""
     },
     {
       "id": 2,
-      "filia": 11,
-      "numeroPedido": 321123,
-      "numeroExterno": 321,
-      "pessoa": "Publisoft Informatica",
-      "complemento": "Pedido de Capsulas - MOCHACCINO CANELA",
-      "dataPedido": "25/11/2023",
-      "status": "open",
-      "itens": [
-        {
-          "id": 1,
-          "itemDescricao": "MOCHACCINO CANELA",
-          "itemQuantidade": 10,
-          "itemBarr": "78910002934376"
-        }
-      ]
+      "usuario": "parana",
+      "senha": "123",
+      "pathLogo": "https://www.rccparana.com.br/themes/tema_rccbrasil/images/logo-header.png",
+      "url": ""
     },
     {
       "id": 3,
-      "filia": 11,
-      "numeroPedido": 333222,
-      "numeroExterno": 123456,
-      "pessoa": "Dev_Coffee",
-      "complemento": "Pedido de Capsulas - MOCHACCINO CANELA",
-      "dataPedido": "25/11/2023",
-      "status": "open",
-      "itens": [
-        {
-          "id": 1,
-          "itemDescricao": "CHOCOCINO ALPINO",
-          "itemQuantidade": 10,
-          "itemBarr": "7891000777084"
-        }
-      ]
+      "usuario": "campo",
+      "senha": "123",
+      "pathLogo": "https://rcccampomourao.com.br/themes/padrao/images/logo-diocese.png",
+      "url": ""
+    },
+    {
+      "id": 4,
+      "usuario": "agua",
+      "senha": "123",
+      "pathLogo": "https://www.avanca.jdyc.com.br/themes/wc_default/images/logo-menu.png",
+      "url": ""
     }
-  ],
-  "pConferidos": []
+  ]
 }
