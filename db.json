@@ -1,7 +1,5 @@
 {
-  "isValid": true,
-  "msg": "",
-  "data": [
+  "usuarios": [
     {
       "id": 1,
       "usuario": "alagoas",
