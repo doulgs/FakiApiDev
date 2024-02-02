@@ -1,32 +1,286 @@
 {
-  "usuarios": [
+  "Filial": [
     {
-      "id": 1,
-      "usuario": "alagoas",
-      "senha": "123",
-      "pathLogo": "https://www.rccalagoas.com.br/themes/tema_rccbrasil/images/logo-header-alagoas.png",
-      "url": ""
+      "ID": 1,
+      "NomeConta": "Filial A",
+      "TipoConta": "Tipo A"
     },
     {
-      "id": 2,
-      "usuario": "parana",
-      "senha": "123",
-      "pathLogo": "https://www.rccparana.com.br/themes/tema_rccbrasil/images/logo-header.png",
-      "url": ""
+      "ID": 2,
+      "NomeConta": "Filial B",
+      "TipoConta": "Tipo B"
     },
     {
-      "id": 3,
-      "usuario": "campo",
-      "senha": "123",
-      "pathLogo": "https://rcccampomourao.com.br/themes/padrao/images/logo-diocese.png",
-      "url": ""
+      "ID": 3,
+      "NomeConta": "Filial C",
+      "TipoConta": "Tipo C"
     },
     {
-      "id": 4,
-      "usuario": "agua",
-      "senha": "123",
-      "pathLogo": "https://www.avanca.jdyc.com.br/themes/wc_default/images/logo-menu.png",
-      "url": ""
+      "ID": 4,
+      "NomeConta": "Filial D",
+      "TipoConta": "Tipo D"
+    },
+    {
+      "ID": 5,
+      "NomeConta": "Filial E",
+      "TipoConta": "Tipo E"
+    }
+  ],
+  "Usuarios": [
+    {
+      "ID": 1,
+      "IDFilial": 1,
+      "Nome": "NomeUsuario1",
+      "Email": "usuario1@email.com",
+      "Senha": "senha123",
+      "Saldo": 1000.00,
+      "FotoByte": "base64_encoded_image_data1",
+      "Role": "RoleUsuario1"
+    },
+    {
+      "ID": 2,
+      "IDFilial": 1,
+      "Nome": "NomeUsuario2",
+      "Email": "usuario2@email.com",
+      "Senha": "senha456",
+      "Saldo": 1500.50,
+      "FotoByte": "base64_encoded_image_data2",
+      "Role": "RoleUsuario2"
+    },
+    {
+      "ID": 3,
+      "IDFilial": 1,
+      "Nome": "NomeUsuario3",
+      "Email": "usuario3@email.com",
+      "Senha": "senha789",
+      "Saldo": 200.75,
+      "FotoByte": "base64_encoded_image_data3",
+      "Role": "RoleUsuario3"
+    },
+    {
+      "ID": 4,
+      "IDFilial": 1,
+      "Nome": "NomeUsuario4",
+      "Email": "usuario4@email.com",
+      "Senha": "senhaabc",
+      "Saldo": 500.25,
+      "FotoByte": "base64_encoded_image_data4",
+      "Role": "RoleUsuario4"
+    },
+    {
+      "ID": 5,
+      "IDFilial": 1,
+      "Nome": "NomeUsuario5",
+      "Email": "usuario5@email.com",
+      "Senha": "senhaxyz",
+      "Saldo": 1200.00,
+      "FotoByte": "base64_encoded_image_data5",
+      "Role": "RoleUsuario5"
+    }
+  ],
+  "Configuracoes": [
+    {
+      "ID": 1,
+      "Nome": "Objeto1",
+      "Valor": "Valor1"
+    },
+    {
+      "ID": 2,
+      "Nome": "Objeto2",
+      "Valor": "Valor2"
+    },
+    {
+      "ID": 3,
+      "Nome": "Objeto3",
+      "Valor": "Valor3"
+    },
+    {
+      "ID": 4,
+      "Nome": "Objeto4",
+      "Valor": "Valor4"
+    },
+    {
+      "ID": 5,
+      "Nome": "Objeto5",
+      "Valor": "Valor5"
+    }
+  ],
+  "Classificacao": [
+    {
+      "ID": 1,
+      "Descricao": "Descrição do Objeto 1",
+      "Ativo": true,
+      "Cor": "#0000FF"
+    },
+    {
+      "ID": 2,
+      "Descricao": "Descrição do Objeto 2",
+      "Ativo": false,
+      "Cor": "#FF0000"
+    },
+    {
+      "ID": 3,
+      "Descricao": "Descrição do Objeto 3",
+      "Ativo": true,
+      "Cor": "#008000"
+    },
+    {
+      "ID": 4,
+      "Descricao": "Descrição do Objeto 4",
+      "Ativo": true,
+      "Cor": "#FFFF00"
+    },
+    {
+      "ID": 5,
+      "Descricao": "Descrição do Objeto 5",
+      "Ativo": false,
+      "Cor": "#800080"
+    }
+  ],
+  "Movimentos": [
+    {
+      "ID": 1,
+      "IDUsuario": 1,
+      "Descricao": "Descrição do lançamento 1",
+      "Valor": 1000.00,
+      "DataLancamento": "2024-02-02T12:30:00",
+      "DataVencimento": "2024-03-02T00:00:00",
+      "Tipo": "Receber",
+      "IDClassificacao": 1,
+      "IDCondicao": 1
+    },
+    {
+      "ID": 2,
+      "IDUsuario": 1,
+      "Descricao": "Descrição do lançamento 2",
+      "Valor": 1500.50,
+      "DataLancamento": "2024-02-03T14:45:00",
+      "DataVencimento": "2024-03-03T00:00:00",
+      "Tipo": "Pagar",
+      "IDClassificacao": 2,
+      "IDCondicao": 1
+    },
+    {
+      "ID": 3,
+      "IDUsuario": 1,
+      "Descricao": "Descrição do lançamento 3",
+      "Valor": 200.75,
+      "DataLancamento": "2024-02-04T09:15:00",
+      "DataVencimento": "2024-03-04T00:00:00",
+      "Tipo": "Receber",
+      "IDClassificacao": 3,
+      "IDCondicao": 1
+    },
+    {
+      "ID": 4,
+      "IDUsuario": 1,
+      "Descricao": "Descrição do lançamento 4",
+      "Valor": 500.25,
+      "DataLancamento": "2024-02-05T18:00:00",
+      "DataVencimento": "2024-03-05T00:00:00",
+      "Tipo": "Pagar",
+      "IDClassificacao": 4,
+      "IDCondicao": 1
+    },
+    {
+      "ID": 5,
+      "IDUsuario": 1,
+      "Descricao": "Descrição do lançamento 5",
+      "Valor": 1200.00,
+      "DataLancamento": "2024-02-06T11:30:00",
+      "DataVencimento": "2024-03-06T00:00:00",
+      "Tipo": "Receber",
+      "IDClassificacao": 5,
+      "IDCondicao": 1
+    }
+  ],
+  "Condicao": [
+    {
+      "ID": 1,
+      "Descricao": "Condição 1",
+      "Ativo": true
+    },
+    {
+      "ID": 2,
+      "Descricao": "Condição 2",
+      "Ativo": false
+    },
+    {
+      "ID": 3,
+      "Descricao": "Condição 3",
+      "Ativo": true
+    },
+    {
+      "ID": 4,
+      "Descricao": "Condição 4",
+      "Ativo": true
+    },
+    {
+      "ID": 5,
+      "Descricao": "Condição 5",
+      "Ativo": false
+    }
+  ],
+  "Pessoa": [
+    {
+      "ID": 1,
+      "Nome": "Endereço 1",
+      "Telefone": "123-456-7890",
+      "Cep": "12345678",
+      "Logradouro": "Rua Exemplo",
+      "Numero": "123",
+      "Bairro": "Bairro Exemplo",
+      "Cidade": "Cidade Exemplo",
+      "Estado": "Estado Exemplo",
+      "Pais": "País Exemplo"
+    },
+    {
+      "ID": 2,
+      "Nome": "Endereço 2",
+      "Telefone": "987-654-3210",
+      "Cep": "87654321",
+      "Logradouro": "Avenida Exemplo",
+      "Numero": "456",
+      "Bairro": "Bairro do Exemplo",
+      "Cidade": "Outra Cidade",
+      "Estado": "Outro Estado",
+      "Pais": "Outro País"
+    },
+    {
+      "ID": 3,
+      "Nome": "Endereço 3",
+      "Telefone": "111-222-3333",
+      "Cep": "11112222",
+      "Logradouro": "Travessa Exemplo",
+      "Numero": "789",
+      "Bairro": "Bairro Novo",
+      "Cidade": "Nova Cidade",
+      "Estado": "Novo Estado",
+      "Pais": "Novo País"
+    },
+    {
+      "ID": 4,
+      "Nome": "Endereço 4",
+      "Telefone": "555-666-7777",
+      "Cep": "55556666",
+      "Logradouro": "Praça Exemplo",
+      "Numero": "101",
+      "Bairro": "Bairro Antigo",
+      "Cidade": "Cidade Antiga",
+      "Estado": "Estado Antigo",
+      "Pais": "País Antigo"
+    },
+    {
+      "ID": 5,
+      "Nome": "Endereço 5",
+      "Telefone": "999-888-7777",
+      "Cep": "99998888",
+      "Logradouro": "Estrada Exemplo",
+      "Numero": "505",
+      "Bairro": "Bairro Distante",
+      "Cidade": "Cidade Distante",
+      "Estado": "Estado Distante",
+      "Pais": "País Distante"
     }
   ]
 }
