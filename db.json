@@ -35,7 +35,7 @@
       "Senha": "senha123",
       "Saldo": 1000.00,
       "FotoByte": "base64_encoded_image_data1",
-      "Role": "RoleUsuario1"
+      "Role": "Administrador"
     },
     {
       "ID": 2,
@@ -45,7 +45,7 @@
       "Senha": "senha456",
       "Saldo": 1500.50,
       "FotoByte": "base64_encoded_image_data2",
-      "Role": "RoleUsuario2"
+      "Role": "Administrador"
     },
     {
       "ID": 3,
@@ -55,7 +55,7 @@
       "Senha": "senha789",
       "Saldo": 200.75,
       "FotoByte": "base64_encoded_image_data3",
-      "Role": "RoleUsuario3"
+      "Role": "Administrador"
     },
     {
       "ID": 4,
@@ -65,7 +65,7 @@
       "Senha": "senhaabc",
       "Saldo": 500.25,
       "FotoByte": "base64_encoded_image_data4",
-      "Role": "RoleUsuario4"
+      "Role": "Administrador"
     },
     {
       "ID": 5,
@@ -75,7 +75,7 @@
       "Senha": "senhaxyz",
       "Saldo": 1200.00,
       "FotoByte": "base64_encoded_image_data5",
-      "Role": "RoleUsuario5"
+      "Role": "Administrador"
     }
   ],
   "Configuracoes": [
